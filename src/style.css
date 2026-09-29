@@ -3,3 +3,26 @@
 body{
     background: white;
 }
+
+/* styles.css */
+
+/* 1. Dimensiones de la carta */
+.my-custom-card {
+  width: 250px;
+  height: 350px;
+  border-radius: 15px; /* Bordes más suaves */
+}
+
+/* 2. Colores dinámicos (los inyectaremos con JavaScript luego) */
+.heart, .diamond {
+  color: red !important;
+}
+
+.spade, .club {
+  color: black !important;
+}
+
+/* 3. El truco visual: voltear el ícono inferior */
+.bottom-suit {
+  transform: rotate(180deg);
+}
